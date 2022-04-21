@@ -19,9 +19,9 @@ u<sub>1</sub> v<sub>1</sub>
 ...
 u<sub>m</sub> v<sub>m</sub>
 
-Here n, m are the numbers of vertices and edges.  ui, vi are the
-endpoints of the ith edge.  The vertices are numbered 0 through n-1,
-so 0 <= ui, vi <= n-1.  The output is the n colours C[u], printed
+Here n, m are the numbers of vertices and edges.  u<sub>i</sub>, v<sub>i</sub> are the
+endpoints of the i<sup>th</sup> edge.  The vertices are numbered 0 through n-1,
+so 0 <= u<sub>i</sub>, v<sub>i</sub> <= n-1.  The output is the n colours C[u], printed
 out in order, i.e
 
 C[0] C[1] ... C[n-1]
