@@ -15,9 +15,9 @@ neighbours.  However, for the sake of getting a unique answer, the smallest numb
 The input format is given as follows.
 
 n m
-u1 v1
+u<sub>1</sub> v<sub>1</sub>
 ...
-um vm
+u<sub>m</sub> v<sub>m</sub>
 
 Here n, m are the numbers of vertices and edges.  ui, vi are the
 endpoints of the ith edge.  The vertices are numbered 0 through n-1,
