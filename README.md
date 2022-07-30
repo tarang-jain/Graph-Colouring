@@ -2,7 +2,7 @@
 
 The basic graph colouring problem is as follows. Given as input an undirected graph.  To each vertex u, we must assign a colour C[u], which must be a positive integer s.t. C[u] != C[v] if (u,v) is an edge in the graph.  In addition, it is desirable to minimize the largest colour, i.e. largest value of C[u] over all u.  If a graph can be coloured with max colour <= k, then it is said to be k colourable.
 
-Minimizing this maximum colour value is a well known difficult problem and it is believed that no algorithm can
+Minimizing this maximum colour value is a well known NP Complete problem and it is believed that no algorithm can
 colour a graph in the minimum number of colours in time polynomial in n.
 
 However, one heuristic for solving this problem is the "minimum degree heuristic". The degree of a vertex is the number of edges incident on that vertex.  The heuristic starts with all vertices uncoloured, and repeats the following step.
